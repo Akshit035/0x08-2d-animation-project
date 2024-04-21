@@ -12,14 +12,33 @@
             justify-content: center;
             align-items: center;
             background-color: #231f1f;
+            color: #faf0f0; /* Text color */
+            font-family: Arial, sans-serif;
+        }
+        #canvasContainer {
+            display: flex;
+            align-items: center;
         }
         canvas {
             border: 1px solid #faf0f0;
+            margin-right: 20px; /* Space between canvas and text */
+        }
+        #nameContainer {
+            display: flex;
+            flex-direction: column; /* Display items in a column */
         }
     </style>
 </head>
 <body>
-    <canvas id="myCanvas" width="600" height="400"></canvas>
+    <div id="canvasContainer">
+        <canvas id="myCanvas" width="600" height="400"></canvas>
+        <div id="nameContainer">
+            <div>'Akshit Singh','Tanushree Walia'</div>
+            
+            <div>'102103172','102103163'</div>
+          
+        </div>
+    </div>
 
     <script src="bouncing_ball.js"></script>
 </body>
