@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouncing Ball Animation Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9; /* Light grey background */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Full viewport height */
+    }
+
+    .container {
+      width: 80%;
+      max-height: 80vh; /* Maximum height for non-scrollable content */
+      overflow: auto; /* Enable scroll only when necessary */
+      padding: 20px;
+      background-color: #fff; /* White background */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+      text-align: left;
+      position: relative;
+    }
+
+    h1, h2, p, ul {
+      margin: 10px 0;
+    }
+
+    .demo-button {
+      position: absolute;
+      bottom: 20px;
+      left: calc(50% - 100px); /* Center horizontally */
+      background-color: #4CAF50; /* Green background */
+      color: white;
+      padding: 15px 30px; /* Larger padding for bigger button */
+      font-size: 16px;
+      border: none;
+      border-radius: 5px; /* Curved edges */
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .demo-button:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bouncing Ball Animation Report</h1>
+    
+    <h2>Inspiration:</h2>
+    <ul>
+      <li>Go beyond the basic ball: Instead of a plain sphere, animate a basketball, a tennis ball, a squishy ball with exaggerated deformations, or even a character shaped like a ball.</li>
+      <li>Incorporate a setting: Let your ball bounce on different surfaces like grass, sand, a trampoline, or even water, creating unique visual effects.</li>
+      <li>Play with gravity: Animate the ball bouncing in slow motion, defying gravity altogether, or bouncing on different planets with varying gravitational forces.</li>
+      <li>Add trails or blurs: Emphasize the speed and direction of the ball with motion trails or blurs.</li>
+    </ul>
+    
+    <h2>Objective:</h2>
+    <ul>
+      <li>Mastering the 12 Principles of Animation: This exercise serves as a fundamental practice ground for applying these principles to movement, timing, and weight.</li>
+      <li>Learning Animation Software: Creating a bouncing ball animation allows you to experiment with the features and tools of your chosen animation software.</li>
+      <li>Understanding Physics: Simulating the realistic bouncing motion of a ball teaches you about gravity, elasticity, and momentum in animation.</li>
+      <li>Developing Storytelling Skills: Even a simple bouncing ball animation can be used to tell a story, encouraging you to think about character development, plot, and emotional expression.</li>
+    </ul>
+    
+    <h2>Challenges:</h2>
+    <ul>
+      <li>Realistic Bounce: Achieving a natural-looking bounce requires understanding the physics of gravity and impact. The ball should accelerate as it falls, flatten on impact, and lose energy gradually with each bounce.</li>
+      <li>Timing and Spacing: Proper timing and spacing between frames are crucial. Wider spacing creates the illusion of speed during the fall, while tighter spacing conveys slower movement at the apex of the bounce.</li>
+      <li>Squash and Stretch: This fundamental principle adds life to the animation. Exaggerate the ball's shape on impact (squash) and during its ascent (stretch) to emphasize the bounce and defy its rigid form.</li>
+    </ul>
+    
+    <h2>Overcoming the Challenges:</h2>
+    <ul>
+      <li>Practice and Reference: Study real-life bouncing balls and practice animating their movements. Reference existing bouncing ball animations to analyze their timing, spacing, and application of animation principles.</li>
+      <li>Utilize Software Features: Many animation software tools offer features like onion skinning and tweening that can significantly streamline the animation process.</li>
+      <li>Start Simple: Don't overwhelm yourself with complex scenarios. Begin with a basic ball bouncing on a flat surface and gradually add elements like different surfaces, multiple bounces, and variations in the ball's shape.</li>
+      <li>Seek Feedback: Share your animation with others and ask for constructive criticism. This can help you identify areas for improvement and refine your technique.</li>
+    </ul>
+    
+    <h2>Assets:</h2>
+    <ul>
+      <li>HTML5 Canvas: The HTML5 Canvas element provides a surface on which to draw graphics using JavaScript. It's commonly used for creating dynamic and interactive animations.</li>
+      <li>JavaScript: JavaScript is used to manipulate the HTML5 Canvas element, handle user interactions, and create animations. Libraries like requestAnimationFrame can be utilized for smoother animations.</li>
+      <li>Vector Graphics: SVG (Scalable Vector Graphics) or similar vector graphic formats can be used for creating the visual assets like the ball. SVG is especially useful for its scalability without loss of quality.</li>
+      <li>CSS for Styling: CSS can be employed for styling the HTML elements containing the canvas and any other UI elements surrounding the animation.</li>
+      <li>Physics Principles: Understanding basic physics principles such as gravity, velocity, and collision detection is crucial for creating a realistic bouncing ball animation.</li>
+      <li>Online Tutorials and Documentation: Websites like MDN Web Docs, W3Schools, and various YouTube tutorials offer extensive documentation and tutorials on HTML5 Canvas and JavaScript animation.</li>
+      <li>Code Editors: Code editors like Visual Studio Code, Sublime Text, or Atom are used for writing and editing HTML, CSS, and JavaScript code.</li>
+    </ul>
+  </div>
+  
+  <!-- Demo button linked to the provided URL -->
+  <button class="demo-button" onclick="window.open('https://akshit035.github.io/0x08-2d-animation-project/', '_blank')">Project</button>
+</body>
+</html>
